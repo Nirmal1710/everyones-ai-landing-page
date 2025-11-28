@@ -1,94 +1,20 @@
-# 🌟 Everyone’s AI – Official Campaign Website  
-A modern, AI-assisted landing page built with **React**, **Vite**, and **Tailwind CSS**.  
-Designed to make AI friendly, simple, and enjoyable for **kids, parents, teachers, and elders**.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-This project was created as part of an AI storytelling & design challenge — focusing on clarity, accessibility, and a beautiful user experience across all devices.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Live Demo  
-🔗 **(Add your deployed link here — Vercel recommended)**  
+View your app in AI Studio: https://ai.studio/apps/drive/1poa67GBtFkMdpq_-u8zTSGV9pwXSLw0k
 
----
+## Run Locally
 
-## 🧠 About the Project  
-Everyone’s AI is a friendly, storytelling-based website that introduces people of all ages to AI.  
-The site includes stories, learning tools, and easy missions that help users explore AI safely and creatively.
+**Prerequisites:**  Node.js
 
-Built using **AI tools** like  
-✨ ChatGPT  
-✨ GPT-4  
-✨ Claude  
-✨ GitHub Copilot  
-✨ Vercel AI  
-✨ Cursor / Replit Ghostwriter  
-— as required by the challenge.
 
----
-
-## 🎨 Features  
-
-### 🟣 **Hero Section (Welcome Area)**
-- Animated galaxy background created with canvas  
-- Large storytelling headline  
-- CTA buttons (Google Forms / Airtable forms)  
-- Fully responsive (mobile / tablet / desktop)
-
-### 🟡 **Why AI Section**  
-- Simple explanations for all age groups  
-- Fun illustrations  
-- Smooth scroll navigation
-
-### 🔵 **Stories Section**  
-- Story cards with images  
-- “Read story” ➝ Opens YouTube or PDF  
-- Grid layout for all screen sizes  
-- Hover effects & animations
-
-### 🟢 **Learning Carousel**  
-- AI tools: ChatGPT, DALL·E, Runway, Synthesia, Stable Diffusion, Midjourney  
-- Every tool includes:
-  - Image/icon  
-  - Description  
-  - “Open Tool” button linking to official website  
-  - Sample prompt  
-- Swipe support (mobile), arrow keys, autoplay
-
-### 🔴 **Get Involved (Missions Section)**  
-- Four unique mission cards:
-  - Join the Challenge  
-  - Submit an Idea  
-  - Share Your Creation  
-  - Community Feedback  
-- Each button opens a different Google/Airtable form  
-- Plus: “Join Now” email form with validation
-
-### ⚫ **Footer**  
-- Quick navigation links  
-- Email, GitHub, and LinkedIn icons  
-- Accessibility & legal links  
-- Auto-updating year
-
----
-
-## 🛠️ Tech Stack  
-
-**Frontend:**  
-- React + TypeScript  
-- Vite  
-- Tailwind CSS  
-- Lucide Icons  
-- Framer Motion (optional)  
-- AOS / Scroll animations (optional)
-
-**AI Tools Used:**  
-- ChatGPT (interface + component generation)  
-- Claude (content writing)  
-- DALL·E / Midjourney for image concepts  
-- Cursor / Replit Ghostwriter for code assistance  
-- Vercel AI tools for design inspiration  
-
----
-
-## 📁 Folder Structure  
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
